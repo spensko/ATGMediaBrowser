@@ -8,5 +8,6 @@ let package = Package(name: "ATGMediaBrowser",
                       platforms: [.iOS(.v10)],
                       products: [.library(name: "ATGMediaBrowser",
                                           targets: ["ATGMediaBrowser"])],
-                      targets: [.target(name: "ATGMediaBrowser")],
+                      targets: [.target(name: "ATGMediaBrowser",
+                                        path: "ATGMediaBrowser")],
                       swiftLanguageVersions: [.v5])
